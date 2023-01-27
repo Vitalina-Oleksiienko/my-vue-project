@@ -1,15 +1,15 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <FormSend />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import "bootstrap-vue/dist/bootstrap-vue.css";
+import FormSend from "./components/FormSend.vue";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    FormSend,
   },
 };
 </script>
